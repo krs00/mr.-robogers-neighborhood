@@ -12,8 +12,12 @@ function beepBoop(number) {
         
         if (num.includes("1") === true) {
             arrayBoop.push("Beep!") 
-        }  else { 
-            arrayBoop.push(parseInt(num))  
+        }  else if (num.includes("2") === true) { 
+            arrayBoop.push("Boop!")
+        } else if (num.includes("3") === true) {
+            arrayBoop.push("Won't you be my neighbor?")
+        } else {
+            arrayBoop.push(parseInt(num)) 
         }
         
     }
