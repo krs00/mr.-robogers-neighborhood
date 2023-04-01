@@ -1,6 +1,6 @@
 # _Mr.Robogers Neighborhood_
 
-#### By _**Kymani Stephens**_
+#### By _**Kymani Stephens**_ 
 
 ## Technologies Used
 
@@ -22,3 +22,6 @@
 ## License
 
 Copyright (c) _2023_ _Kymani Stephens_
+
+
+
