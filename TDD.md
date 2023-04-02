@@ -23,9 +23,9 @@ Test: Hierarchy of substitutions, "Beep!" should take substitution priority unle
 Code: beepBoop(25)
 Expected Output:
 
-Array Element 13 = "Won't you be my neighbor?"
-Array Element 12 = "Boop!"
-Array Element 23 = "Won't you be my neighbor?"
-Array Element 21 = "Boop!"
+Array Element 13 === "Won't you be my neighbor?"
+Array Element 12 === "Boop!"
+Array Element 23 === "Won't you be my neighbor?"
+Array Element 21 === "Boop!"
 
 
