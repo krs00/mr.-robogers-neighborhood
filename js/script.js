@@ -35,19 +35,15 @@ function handleNum(e){
     e.preventDefault();
     // GET USER INPUT
     const userInput = document.getElementById("input").value
-    // initialize empty array
+    // GENERATE ARRAY CONTAINING WORDS OF USERS INPUTTED NUM
     let displayArr = beepBoop(userInput)
-    
-    // FOR EVERY ELEMENT IN DISPLAYARR APPEND TO OUTPUT
+    // JOIN ALL ELEMENTS TOGETHER INTO SINGLE STRING
+    const displayString = displayArr.join(", ")
+    // MAKE PARAGRAPH ELEMENT TO APPEND TO PAGE
+    const text = document.createElement('p')
+    text.innerHTML = displayString
 
-    displayArr.forEach(function(item) {
-
-        const listElement = document.createElement("li")
-        listElement.innerHTML = item
-        output.appendChild(listElement) 
-        
-    })
-    
+    output.append(text)
 }
 
 
