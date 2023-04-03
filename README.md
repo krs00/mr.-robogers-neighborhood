@@ -10,6 +10,9 @@
 
 ## Description
 
+    _This is a small application that will generate a sequence of
+    words up to your inputted number, in a fizz buzz type fashion_
+
 ## Setup/Installation Requirements
 
 * _Clone this repo_
@@ -17,7 +20,7 @@
 
 ## Known Bugs
 
-* _ _
+* _App does not currently have update display!! I will fix this :`(` _
 
 ## License
 
