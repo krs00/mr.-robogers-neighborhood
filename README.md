@@ -10,8 +10,7 @@
 
 ## Description
 
-    _This is a small application that will generate a sequence of
-    words up to your inputted number, in a fizz buzz type fashion_
+    This is a small application that will generate a sequence of words up to your inputted number, in a fizz buzz type fashion!
 
 ## Setup/Installation Requirements
 
@@ -20,7 +19,7 @@
 
 ## Known Bugs
 
-* _App does not currently have update display!! I will fix this :`(` _
+* App does not currently have update display!! I will fix this!!
 
 ## License
 
