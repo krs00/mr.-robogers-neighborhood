@@ -24,3 +24,33 @@ function beepBoop(number) {
         return(arrayBoop)
 }
 
+// UI LOGIC
+
+// GET ALL DOM NODES
+const form = document.getElementById("input-form")
+const output = document.getElementById("output")
+
+function handleNum(e){
+    // STOP PAGE FROM REFRESHING
+    e.preventDefault();
+    // GET USER INPUT
+    const userInput = document.getElementById("input").value
+    // initialize empty array
+    let displayArr = beepBoop(userInput)
+    
+    // FOR EVERY ELEMENT IN DISPLAYARR APPEND TO OUTPUT
+
+    displayArr.forEach(function(item) {
+
+        const listElement = document.createElement("li")
+        listElement.innerHTML = item
+        output.appendChild(listElement) 
+        
+    })
+    
+}
+
+
+form.addEventListener("submit", handleNum)
+
+
